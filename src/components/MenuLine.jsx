@@ -7,10 +7,16 @@ const MenuLine = ({ judul, menuPlus }) => {
 
       {menuPlus && (
         <div className="float-right">
-          <a className="inline text-slate-600" href="#">
+          <a
+            className="inline text-slate-600 hover:text-green-500 ms-2"
+            href="#"
+          >
             Founder Letter
           </a>
-          <a className="inline text-slate-600 ms-2" href="#">
+          <a
+            className="inline text-slate-600 hover:text-green-500 ms-2"
+            href="#"
+          >
             Milestone
           </a>
         </div>
